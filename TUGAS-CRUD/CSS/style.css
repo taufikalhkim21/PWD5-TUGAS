@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: blueviolet;
+    color: #ffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+}
+nav .logo span{
+    color: orange;
+}
+
+nav ul {
+    list-style: none;
+    padding: 25px;
+}
+
+nav .list-item ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 50px;
+
+}
+
+.settings .down-item {
+    position: relative;
+}
+.settings .nav-down {
+    position: absolute;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    border: solid 1px;
+    top: 100%;
+    width: 100px;
+    background-color: blueviolet;
+    display: none;
+    margin-top: 20px;
+}
+
+.settings .nav-down li {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.settings :hover {
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    margin: 0;
+}
+
+.container .rekomen {
+    color: #ffff;
+    background-color: blueviolet;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.container img {
+    width: 80%;
+}
+
+.container .list-film {
+    display: flex;
+     gap: 2rem;
+     margin: 0;
+     justify-content: center;
+     margin-top: 100px;
+}
+
+.container .card-film {
+    border: 2px solid black;
+    width: 300px;
+   object-fit: cover;
+}
+
+.container .card-film button {
+    background-color: orange;
+    width: 100%;
+    border-radius: 20px;
+}
